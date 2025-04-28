@@ -54,13 +54,12 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 
 # List of transformers in this library
 
-## Type transformers
+## Type converters
 
 - **BasicTypeConverter** - Support transforming all PHP types to all other types
 - **EnumConverter** - Transform Enums to string
 - **ReadableConverter** - Transform booleans and null to readable strings
 - **StringableConverter** - Transform stringable objects to string
-- **ThrowableConverter** - Transform throwable to object, array or string
 - **ThrowableConverter** - Transform throwable to object, array or string
 
 ## Utility resolvers
