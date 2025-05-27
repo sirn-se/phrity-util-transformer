@@ -57,15 +57,15 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 ## Type converters
 
 - **[BasicTypeConverter](docs/converters/BasicType.md)** - Support transforming all PHP types to all other types
-- **[EnumConverter](docs/converters/EnumConverter.md)** - Transform Enums to string
-- **[ReadableConverter](docs/converters/ReadableConverter.md)** - Transform booleans and null to readable strings
-- **[StringableConverter](docs/converters/tringableConverter.md)** - Transform stringable objects to string
-- **[ThrowableConverter](docs/converters/ThrowableConverter.md)** - Transform throwable to object, array or string
+- **[EnumConverter](docs/converters/Enum.md)** - Transform Enums to string
+- **[ReadableConverter](docs/converters/Readable.md)** - Transform booleans and null to readable strings
+- **[StringableConverter](docs/converters/Stringable.md)** - Transform stringable objects to string
+- **[ThrowableConverter](docs/converters/Throwable.md)** - Transform throwable to object, array or string
 
 ## Utility resolvers
 
-- **[FirstMatchResolver](docs/resolvers/FirstMatchResolver.md)** - Collection of transformers that will use first compatible transformer for transformation
-- **[RecursionResolver](docs/resolvers/RecursionResolver.md)** - Will apply transformer recursively
+- **[FirstMatchResolver](docs/resolvers/FirstMatch.md)** - Collection of transformers that will use first compatible transformer for transformation
+- **[RecursionResolver](docs/resolvers/Recursion.md)** - Will apply transformer recursively
 
 # Versions
 
