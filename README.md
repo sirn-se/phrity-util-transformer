@@ -56,19 +56,22 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 
 ## Type converters
 
-- **BasicTypeConverter** - Support transforming all PHP types to all other types
-- **EnumConverter** - Transform Enums to string
-- **ReadableConverter** - Transform booleans and null to readable strings
-- **StringableConverter** - Transform stringable objects to string
-- **ThrowableConverter** - Transform throwable to object, array or string
+- **[BasicTypeConverter](docs/converters/BasicType.md)** - Support transforming all PHP types to all other types
+- **[EnumConverter](docs/converters/EnumConverter.md)** - Transform Enums to string
+- **[ReadableConverter](docs/converters/ReadableConverter.md)** - Transform booleans and null to readable strings
+- **[StringableConverter](docs/converters/tringableConverter.md)** - Transform stringable objects to string
+- **[ThrowableConverter](docs/converters/ThrowableConverter.md)** - Transform throwable to object, array or string
 
 ## Utility resolvers
 
-- **FirstMatchResolver** - Collection of transformers that will use first compatible transformer for transformation
-- **RecursionResolver** - Will apply transformer recursively
+- **[FirstMatchResolver](docs/resolvers/FirstMatchResolver.md)** - Collection of transformers that will use first compatible transformer for transformation
+- **[RecursionResolver](docs/resolvers/RecursionResolver.md)** - Will apply transformer recursively
 
 # Versions
 
 | Version | PHP | |
 | --- | --- | --- |
 | `1.0` | `^8.1` | Initial version |
+
+
+
