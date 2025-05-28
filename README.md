@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/logotype.png" alt="Phrity Util Transformer" width="100%"></p>
+
 [![Build Status](https://github.com/sirn-se/phrity-util-transformer/actions/workflows/acceptance.yml/badge.svg)](https://github.com/sirn-se/phrity-util-transformer/actions)
 [![Coverage Status](https://coveralls.io/repos/github/sirn-se/phrity-util-transformer/badge.svg?branch=main)](https://coveralls.io/github/sirn-se/phrity-util-transformer?branch=main)
 
