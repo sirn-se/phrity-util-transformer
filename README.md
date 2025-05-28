@@ -59,6 +59,7 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 - **[BasicTypeConverter](docs/converters/BasicType.md)** - Support transforming all PHP types to all other types
 - **[EnumConverter](docs/converters/Enum.md)** - Transform Enums to string
 - **[ReadableConverter](docs/converters/Readable.md)** - Transform booleans and null to readable strings
+- **[ReversedReadableConverter](docs/converters/ReversedReadable.md)** - Transform some strings to boolean and null
 - **[StringableConverter](docs/converters/Stringable.md)** - Transform stringable objects to string
 - **[ThrowableConverter](docs/converters/Throwable.md)** - Transform throwable to object, array or string
 
@@ -71,7 +72,5 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 
 | Version | PHP | |
 | --- | --- | --- |
+| `1.1` | `^8.1` | Additional transformers |
 | `1.0` | `^8.1` | Initial version |
-
-
-
