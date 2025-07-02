@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Overview",
+        "link": "README.md"
+    },
+    {
+        "name": "Types",
+        "link": "docs/Types.md"
+    },
+    {
+        "name": "Encoders & Decoders",
+        "children": [
+            {
+                "name": "Flatten Decoder",
+                "link": "docs/codecs/FlattenDecoder.md"
+            },
+            {
+                "name": "Json Decoder",
+                "link": "docs/codecs/JsonDecoder.md"
+            }
+        ]
+    },
+    {
+        "name": "Converters",
+        "children": [
+            {
+                "name": "Basic Type",
+                "link": "docs/converters/BasicType.md"
+            },
+            {
+                "name": "Enum",
+                "link": "docs/converters/Enum.md"
+            },
+            {
+                "name": "Json Serializable",
+                "link": "docs/converters/JsonSerializable.md"
+            },
+            {
+                "name": "Readable",
+                "link": "docs/converters/Readable.md"
+            },
+            {
+                "name": "Reversed Readable",
+                "link": "docs/converters/ReversedReadable.md"
+            },
+            {
+                "name": "Stringable",
+                "link": "docs/converters/Stringable.md"
+            },
+            {
+                "name": "Throwable",
+                "link": "docs/converters/Throwable.md"
+            }
+        ]
+    },
+    {
+        "name": "Resolvers",
+        "children": [
+            {
+                "name": "First Match",
+                "link": "docs/resolvers/FirstMatch.md"
+            },
+            {
+                "name": "Recursion",
+                "link": "docs/resolvers/Recursion.md"
+            }
+        ]
+    },
+    {
+        "name": "Wrappers",
+        "children": [
+            {
+                "name": "Symfony Normalizer",
+                "link": "docs/wrappers/SymfonyNormalizer.md"
+            }
+        ]
+    }
+]
