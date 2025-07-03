@@ -78,7 +78,7 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 
 ## Wrappers
 
-- **[Symfony Normalizer](docs/wrappers/SymfonyNormalizerWrapper.md)** - Wrap class implementing Symfony `NormalizerInterface`
+- **[Symfony Normalizer](docs/wrappers/SymfonyNormalizer.md)** - Wrap class implementing Symfony `NormalizerInterface`
 
 
 # Versions

@@ -4,6 +4,11 @@
 
 The `SymfonyNormalizerWrapper` can wrap any class implementing Symfony `NormalizerInterface`.
 
+## Dependency
+
+The wrapper require `symfony/serializer` package.
+The package is not installed automatically.
+
 ## Using the wrapper
 
 Example of using some of Symfony´s normalizers.
