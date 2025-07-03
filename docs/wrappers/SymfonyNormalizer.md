@@ -6,8 +6,8 @@ The `SymfonyNormalizerWrapper` can wrap any class implementing Symfony `Normaliz
 
 ## Dependency
 
-The wrapper require `symfony/serializer` package.
-The package is not installed automatically.
+This wrapper require `symfony/serializer` and possibly `symfony/property-access` packages.
+The packages are not installed automatically.
 
 ## Using the wrapper
 
