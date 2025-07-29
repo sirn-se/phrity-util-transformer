@@ -28,6 +28,10 @@
                 "link": "docs/converters/BasicType.md"
             },
             {
+                "name": "DateTime",
+                "link": "docs/converters/DateTime.md"
+            },
+            {
                 "name": "Enum",
                 "link": "docs/converters/Enum.md"
             },
