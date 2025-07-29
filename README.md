@@ -64,6 +64,7 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 ## Type converters
 
 - **[Basic Type](docs/converters/BasicType.md)** - Support transforming all PHP types to all other types
+- **[DateTime](docs/converters/DateTime.md)** - Transform DateTime classes to string
 - **[Enum](docs/converters/Enum.md)** - Transform Enums to string
 - **[Json Serializable](docs/converters/JsonSerializable.md)** - Transform JSON serializable objects
 - **[Readable](docs/converters/Readable.md)** - Transform booleans and null to readable strings
@@ -85,6 +86,7 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 
 | Version | PHP | |
 | --- | --- | --- |
+| `1.3` | `^8.1` | Transformers: DateTime |
 | `1.2` | `^8.1` | Additional transformers |
 | `1.1` | `^8.1` | Additional transformers |
 | `1.0` | `^8.1` | Initial version |
