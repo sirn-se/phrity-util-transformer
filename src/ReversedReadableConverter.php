@@ -8,7 +8,7 @@ class ReversedReadableConverter implements TransformerInterface
     {
         $subjectType = gettype($subject);
 
-        if ($subjectType != Type::STRING) {
+        if ($subjectType != Type::STRING || !in_array($type, [Type::BOOLEAN, Type::NULL, null])) {
             return false; // Must be string
         }
         return (in_array(strtolower($subject), ['true', 'false', '1', '0', 'null', '']));

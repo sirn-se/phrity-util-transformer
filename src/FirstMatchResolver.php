@@ -12,7 +12,7 @@ class FirstMatchResolver implements TransformerInterface
 
     /**
      * @param array<TransformerInterface> $transformers
-     * 2param string|null $default
+     * @param string|null $default
      */
     public function __construct(array $transformers, string|null $default = null)
     {
