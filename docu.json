@@ -61,6 +61,10 @@
         "name": "Resolvers",
         "children": [
             {
+                "name": "Chained",
+                "link": "docs/resolvers/Chained.md"
+            },
+            {
                 "name": "First Match",
                 "link": "docs/resolvers/FirstMatch.md"
             },
