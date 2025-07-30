@@ -74,6 +74,7 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 
 ## Utility resolvers
 
+- **[Chained](docs/resolvers/Chained.md)** - Collection of transformers that will send output from one into next one
 - **[First Match](docs/resolvers/FirstMatch.md)** - Collection of transformers that will use first compatible transformer for transformation
 - **[Recursion](docs/resolvers/Recursion.md)** - Will apply transformer recursively
 
@@ -86,7 +87,7 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 
 | Version | PHP | |
 | --- | --- | --- |
-| `1.3` | `^8.1` | Transformers: DateTime |
+| `1.3` | `^8.1` | Transformer: DateTime, Resolver: Chained |
 | `1.2` | `^8.1` | Additional transformers |
 | `1.1` | `^8.1` | Additional transformers |
 | `1.0` | `^8.1` | Initial version |
