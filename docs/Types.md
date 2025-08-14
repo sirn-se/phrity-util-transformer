@@ -1,7 +1,7 @@
 [Documentation](../README.md) / Types
 
 The `Type` defines types as string, and is used as type definers throughout the library.
-En extension may define its own types.
+An extension may define its own types.
 
 ## Available types
 
