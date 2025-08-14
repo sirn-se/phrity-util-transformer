@@ -71,7 +71,11 @@
             {
                 "name": "Recursion",
                 "link": "docs/resolvers/Recursion.md"
-            }
+            },
+            {
+                "name": "String",
+                "link": "docs/resolvers/String.md"
+            },
         ]
     },
     {

@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The `DateTime` converts DateTime related classes to string.
+The `DateTimeConverter` converts DateTime related classes to string.
 Convertable classes are DateTimeInterface (DateTime and DateTimeImmutable), DateTimeZone, DateInterval and DatePeriod.
 
 ## Using the converter
 
 ```php
-$converter = new DateTime();
+$converter = new DateTimeConverter();
 
 $converter->canTransform(new DateTime('2025-07-29 14:13')); // -> bool
 $converter->transform(new DateTime('2025-07-29 14:13')); // -> string output
@@ -30,7 +30,7 @@ See [format param](https://www.php.net/manual/en/datetime.format.php#refsect1-da
 Default format is `c` (ISO 8601).
 
 ```php
-$converter = new DateTime(dateTimeFormat: 'M d, Y');
+$converter = new DateTimeConverter(dateTimeFormat: 'M d, Y');
 $converter->transform(new DateTime('2025-07-29 14:13')); // -> string output
 $converter->transform(new DatePeriod(new DateTime('2025-07-29 12:34'), new DateInterval('P1D'), 2)); // -> string output
 ```
@@ -40,7 +40,7 @@ See [format param](https://www.php.net/manual/en/dateinterval.format.php#refsect
 Default format is `%d` (number of days).
 
 ```php
-$converter = new DateTime(dateIntervalFormat: '%R%d days');
+$converter = new DateTimeConverter(dateIntervalFormat: '%R%d days');
 $converter->transform(new DateInterval('P1W2D')); // -> string output
 $converter->transform(new DatePeriod(new DateTime('2025-07-29 12:34'), new DateInterval('P1D'), 2)); // -> string output
 ```
