@@ -66,6 +66,7 @@ if ($transformer->canTransform($subject, Type::STRING)) {
 - **[Basic Type](docs/converters/BasicType.md)** - Support transforming all PHP types to all other types
 - **[DateTime](docs/converters/DateTime.md)** - Transform DateTime classes to string
 - **[Enum](docs/converters/Enum.md)** - Transform Enums to string
+- **[Http Message](docs/converters/HttpMessage.md)** - Transform PSR-7 HTTP classes to string, object or array
 - **[Json Serializable](docs/converters/JsonSerializable.md)** - Transform JSON serializable objects
 - **[Readable](docs/converters/Readable.md)** - Transform booleans and null to readable strings
 - **[Reversed Readable](docs/converters/ReversedReadable.md)** - Transform some strings to boolean and null

@@ -23,6 +23,9 @@ class JsonDecoder implements TransformerInterface
         }
     }
 
+    /**
+     * @throws TransformerException
+     */
     public function transform(mixed $subject, string|null $type = null): mixed
     {
         if (!$this->canTransform($subject, $type)) {
@@ -31,6 +34,9 @@ class JsonDecoder implements TransformerInterface
         return $this->decode($subject);
     }
 
+    /**
+     * @throws JsonException
+     */
     private function decode(string $subject): mixed
     {
         return json_decode($subject, associative: $this->associative, flags: JSON_THROW_ON_ERROR);
