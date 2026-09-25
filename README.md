@@ -24,7 +24,7 @@ A specific transformer may not be able to transform all types.
 ```php
 $transformer = new BasicTypeConverter();
 if ($transformer->canTransform($subject)) {
-    $transformed = transformer->transform($subject);
+    $transformed = $transformer->transform($subject);
 }
 ```
 
@@ -33,7 +33,7 @@ As option, a transformer can take a target type specifier as second argument.
 ```php
 $transformer = new BasicTypeConverter();
 if ($transformer->canTransform($subject, Type::ARRAY)) {
-    $transformed = transformer->transform($subject, Type::ARRAY);
+    $transformed = $transformer->transform($subject, Type::ARRAY);
 }
 ```
 
@@ -50,7 +50,7 @@ $transformer = new RecursionResolver(
     ])
 );
 if ($transformer->canTransform($subject, Type::STRING)) {
-    $transformed = transformer->transform($subject, Type::STRING);
+    $transformed = $transformer->transform($subject, Type::STRING);
 }
 ```
 
