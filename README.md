@@ -1,7 +1,6 @@
 <p align="center"><img src="docs/logotype.png" alt="Phrity Util Transformer" width="100%"></p>
 
 [![Build Status](https://github.com/sirn-se/phrity-util-transformer/actions/workflows/acceptance.yml/badge.svg)](https://github.com/sirn-se/phrity-util-transformer/actions)
-[![Coverage Status](https://coveralls.io/repos/github/sirn-se/phrity-util-transformer/badge.svg?branch=main)](https://coveralls.io/github/sirn-se/phrity-util-transformer?branch=main)
 
 # Introduction
 
@@ -24,7 +23,7 @@ A specific transformer may not be able to transform all types.
 ```php
 $transformer = new BasicTypeConverter();
 if ($transformer->canTransform($subject)) {
-    $transformed = transformer->transform($subject);
+    $transformed = $transformer->transform($subject);
 }
 ```
 
@@ -33,7 +32,7 @@ As option, a transformer can take a target type specifier as second argument.
 ```php
 $transformer = new BasicTypeConverter();
 if ($transformer->canTransform($subject, Type::ARRAY)) {
-    $transformed = transformer->transform($subject, Type::ARRAY);
+    $transformed = $transformer->transform($subject, Type::ARRAY);
 }
 ```
 
@@ -50,7 +49,7 @@ $transformer = new RecursionResolver(
     ])
 );
 if ($transformer->canTransform($subject, Type::STRING)) {
-    $transformed = transformer->transform($subject, Type::STRING);
+    $transformed = $transformer->transform($subject, Type::STRING);
 }
 ```
 
